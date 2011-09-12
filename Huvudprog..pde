@@ -4,10 +4,13 @@ till huvudprogrammet samt servo/brygga då i slave mode.  */
 
 #include <Wire.h>
 
+unsigned int incomingByte = 0;
+
 void setup()
 {
 //Ställ in I2C samt bluetooth
-//BT på seriell-pinnarna
+unsigned int rxPin = ;
+unsigned int txPin = ;
 
 Wire.begin(/*adress för atmegan*/);
 Wire.onReceive(receiveEvent);
@@ -15,16 +18,17 @@ Serial.begin(9600);
 }
 void loop()
 {
-	//lyssna på bluetooth. Om något skickas, skicka vidare till huvudprog.
+	//Om något skickat över BT
+	if (Serial.available() > 0) {
+			incomingByte = Serial.read();	
 }
 void send(string data)
 {
-	//skicka de erhållna värdena från huvudprogrammet i recieve event-
+	
 }
 void GetSensorData()
 {
 	//Be sensorer (och atmega med sensorer) om data, om tillsagd
-	//Detta bör bara användas i zombie-mode	
 }
 void receiveEvent(int howMany/*???*/)
 {

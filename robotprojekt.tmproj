@@ -10,29 +10,29 @@
 			<key>filename</key>
 			<string>servo och brygga..pde</string>
 			<key>lastUsed</key>
-			<date>2011-09-12T16:45:08Z</date>
+			<date>2011-09-12T20:08:22Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>Kommunikation..pde</string>
+			<string>Huvudprog..pde</string>
 			<key>lastUsed</key>
-			<date>2011-09-04T22:35:01Z</date>
+			<date>2011-09-12T19:36:23Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>200</integer>
+	<integer>406</integer>
 	<key>metaData</key>
 	<dict>
-		<key>Kommunikation..pde</key>
+		<key>Huvudprog..pde</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -44,26 +44,44 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>38</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>26</integer>
+			<integer>16</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>26</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>23</integer>
+				<key>line</key>
+				<integer>38</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>servo och brygga..pde</string>
-		<string>Kommunikation..pde</string>
+		<string>Huvudprog..pde</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
+	<key>showFileHierarchyPanel</key>
+	<true/>
 	<key>treeState</key>
 	<dict/>
 	<key>windowFrame</key>
-	<string>{{306, 197}, {654, 388}}</string>
+	<string>{{0, 4}, {1280, 774}}</string>
 </dict>
 </plist>

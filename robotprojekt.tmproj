@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentDocument</key>
+	<string>servo och brygga..pde</string>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>servo och brygga..pde</string>
+			<key>lastUsed</key>
+			<date>2011-09-12T16:45:08Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Kommunikation..pde</string>
+			<key>lastUsed</key>
+			<date>2011-09-04T22:35:01Z</date>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict>
+		<key>Kommunikation..pde</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>servo och brygga..pde</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>26</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>servo och brygga..pde</string>
+		<string>Kommunikation..pde</string>
+	</array>
+	<key>showFileHierarchyDrawer</key>
+	<false/>
+	<key>treeState</key>
+	<dict/>
+	<key>windowFrame</key>
+	<string>{{306, 197}, {654, 388}}</string>
+</dict>
+</plist>

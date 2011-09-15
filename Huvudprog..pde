@@ -13,32 +13,29 @@ unsigned int rxPin = ;
 unsigned int txPin = ;
 
 Wire.begin(/*adress för atmegan*/);
-Wire.onReceive(receiveEvent);
+
 Serial.begin(9600);	
 }
 void loop()
 {
 	//Om något skickat över BT
-	if (Serial.available() > 0) {
-			incomingByte = Serial.read();	
+	if (Serial.available() > 0) 
+	{
+			char data[] = Serial.read();
+	}
+	Serial.println("Inläst data: ")
+	Serial.println(data);
+	Serial.println(" ");
+	run(data);
 }
-void send(string data)
+void run(char data)
 {
-	
+	//skickar till arduino som sköter drivningen
+	Wire.beginTransmission(4);
+	Wire.send(data);
+	Wire.endTransmission();
 }
 void GetSensorData()
 {
-	//Be sensorer (och atmega med sensorer) om data, om tillsagd
-}
-void receiveEvent(int howMany/*???*/)
-{
-	//Om atmegan får data skickad till sig, skickar den vidare via BT
-	char data[];
-	unsigned int i=0;
-  	while(1 < Wire.available()) // loop through all but the last
-	{
-		char data[i] = Wire.receive(); // receive byte as a character
-		i++;
-	}
-	send(data);
+	//Be sensorer (och atmega med sensorer) om data.
 }

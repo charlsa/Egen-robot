@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Huvudprog..pde</string>
+	<string>servo och brygga..pde</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>servo och brygga..pde</string>
 			<key>lastUsed</key>
-			<date>2011-09-14T19:40:06Z</date>
+			<date>2011-09-15T09:51:28Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Huvudprog..pde</string>
 			<key>lastUsed</key>
-			<date>2011-09-14T19:40:06Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2011-09-15T09:51:28Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -30,9 +28,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>27</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -44,14 +42,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>23</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>53</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>

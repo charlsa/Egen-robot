@@ -4,7 +4,7 @@ till huvudprogrammet samt servo/brygga då i slave mode.  */
 
 #include <Wire.h>
 
-unsigned int incomingByte = 0;
+constant unsigned int incomingByte = 0;
 
 void setup()
 {

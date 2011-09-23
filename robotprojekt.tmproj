@@ -3,20 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>servo och brygga..pde</string>
+	<string>Servo</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>servo och brygga..pde</string>
+			<string>Sensor.pde</string>
 			<key>lastUsed</key>
-			<date>2011-09-15T09:51:28Z</date>
+			<date>2011-09-18T12:07:03Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Servo</string>
+			<key>lastUsed</key>
+			<date>2011-09-18T12:07:06Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Huvudprog..pde</string>
 			<key>lastUsed</key>
-			<date>2011-09-15T09:51:28Z</date>
+			<date>2011-09-18T12:07:06Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -37,24 +43,39 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>servo och brygga..pde</key>
+		<key>Sensor.pde</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>2</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>2</integer>
+			<integer>0</integer>
+		</dict>
+		<key>Servo</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>12</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>servo och brygga..pde</string>
+		<string>Servo</string>
+		<string>Sensor.pde</string>
 		<string>Huvudprog..pde</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
@@ -62,6 +83,6 @@
 	<key>treeState</key>
 	<dict/>
 	<key>windowFrame</key>
-	<string>{{422, 4}, {829, 774}}</string>
+	<string>{{423, 4}, {829, 774}}</string>
 </dict>
 </plist>

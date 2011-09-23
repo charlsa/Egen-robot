@@ -10,10 +10,10 @@ Servo motor;
 
 void setup()
 {
-	constant unsigned int adress = 2;
+	unsigned int adress = 2;
 	
-	constant unsigned int servoPin = 2;
-	constant unsigned int motorPin = 3;
+	unsigned int servoPin = 2;
+	unsigned int motorPin = 3;
 	
 	pinMode(servoPin, OUTPUT); //för servot
 	pinMode(motorPin, OUTPUT); //för fartreglage

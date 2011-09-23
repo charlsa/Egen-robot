@@ -13,7 +13,7 @@ screen /dev/tty.linvor-DevB 9600
 unsigned int lastReceived = 0;
 unsigned int lastSent = 0;
 
-char inByte[7] = {"DZSZ"};
+char inByte[7] = {"DZSZ"}; //Z = 90°
 char utByte[] = {"N0#A0#L0#"};
 char fel[] = {"E0#T00#"};
 

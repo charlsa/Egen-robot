@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Servo</string>
+	<string>Servo.pde</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -14,7 +14,7 @@
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>Servo</string>
+			<string>Servo.pde</string>
 			<key>lastUsed</key>
 			<date>2011-09-18T12:07:06Z</date>
 		</dict>
@@ -74,7 +74,7 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>Servo</string>
+		<string>Servo.pde</string>
 		<string>Sensor.pde</string>
 		<string>Huvudprog..pde</string>
 	</array>

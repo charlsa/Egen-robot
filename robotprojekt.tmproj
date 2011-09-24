@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>Servo.pde</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -14,7 +12,7 @@
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>Servo.pde</string>
+			<string>Servo</string>
 			<key>lastUsed</key>
 			<date>2011-09-18T12:07:06Z</date>
 		</dict>
@@ -74,12 +72,13 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>Servo.pde</string>
 		<string>Sensor.pde</string>
 		<string>Huvudprog..pde</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
+	<key>showFileHierarchyPanel</key>
+	<true/>
 	<key>treeState</key>
 	<dict/>
 	<key>windowFrame</key>

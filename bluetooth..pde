@@ -13,7 +13,7 @@ screen /dev/tty.linvor-DevB 9600
 unsigned int lastReceived = 0;
 unsigned int lastSent = 0;
 
-char inByte[7] = {"DZSZ"}; //Z = 90°
+char inByte[7] = {"DZ#SZ#"}; //Z = 90°
 char utByte[] = {"N0#A0#L0#"};
 char fel[] = {"E0#T00#"};
 
@@ -44,12 +44,11 @@ void loop()
 		    inByte[i] = Serial.read(); // receive byte as a character
 		    Serial.println(inByte);         // print the character
 			i++;
-			if(inByte[2]!='S' && inByte[0]!='D')
+			if(inByte[3]!='S' && inByte[0]!='D')
 				Serial.println("fel!");
 		  }
-	
-        if(inByte[2]=='S' && inByte[0]=='D')
-                run(inByte[1],inByte[3]);
+     if(inByte[3]=='S' && inByte[0]=='D')
+     		run(inByte[1],inByte[4]);
                 
 }
 void run(int degree, int speed)
